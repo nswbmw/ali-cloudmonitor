@@ -1,0 +1,25 @@
+{
+  "name": "ali-cloudmonitor",
+  "version": "1.0.0",
+  "description": "Aliyun cloudmonitor sdk for node.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "main": "./index",
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.21.1",
+    "eslint-plugin-jest": "23.13.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "jest": "26.0.1"
+  },
+  "dependencies": {
+    "internal-ip": "6.0.0",
+    "request": "2.88.2",
+    "request-promise": "4.2.5",
+    "utf8": "3.0.0"
+  }
+}
