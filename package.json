@@ -1,11 +1,32 @@
 {
   "name": "ali-cloudmonitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aliyun cloudmonitor sdk for node.js",
   "scripts": {
     "test": "jest"
   },
   "main": "./index",
+  "keywords": [
+    "ali",
+    "aliyun",
+    "阿里云",
+    "cms",
+    "cloudmonitor",
+    "monitor",
+    "云监控"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/kless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/ali-cloudmonitor"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
   "devDependencies": {
     "eslint": "7.2.0",
     "eslint-config-standard": "14.1.1",

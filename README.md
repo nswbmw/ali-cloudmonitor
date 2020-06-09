@@ -23,22 +23,22 @@ const aliCloudmonitor = new AliCloudmonitor({
 // https://help.aliyun.com/document_detail/63275.html
 aliCloudmonitor.sendMetric([{
   groupId: 1,
-  metricName: 'test',
+  metricName: 'metricName',
   dimensions: {
-    name: 'test',
-    count: Math.random()
+    dimensionA: 'xxx',
+    dimensionB: 'xxx'
   },
   time: Date.now(),
   type: 0,
   period: 60,
   values: {
-    value: 10
+    value: Math.random()
   }
 }]).then(console.log).catch(console.error)
 
 // https://help.aliyun.com/document_detail/60196.html
 aliCloudmonitor.sendEvent([{
-  name: 'test',
+  name: 'eventName',
   groupId: 2,
   time: Date.now(),
   content: 'This is a event'
