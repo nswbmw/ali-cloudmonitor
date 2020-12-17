@@ -17,10 +17,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nswbmw/kless"
-  },
-  "repository": {
-    "type": "git",
     "url": "https://github.com/nswbmw/ali-cloudmonitor"
   },
   "license": "MIT",
